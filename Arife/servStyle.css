@@ -1,0 +1,101 @@
+body {
+  font-family: "Merriweather", serif;
+}
+.servicesBanner {
+  /* padding: 9.6rem 0; */
+  height: 45.4rem;
+}
+.servicesImg {
+  width: 100%;
+  filter: brightness(0.95);
+  height: 100%;
+}
+.servicesGeneral {
+  text-align: center;
+}
+
+.servicesPresentation {
+  margin-top: 6rem;
+  color: rgb(39, 52, 105);
+  font-weight: bold;
+  padding: 0 9.6rem;
+  font-size: 3rem;
+  margin-bottom: 5.5rem;
+  padding-top: 2rem;
+}
+
+.grid--2-cols {
+  padding: 0 4.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10rem;
+  /* border-top: 2px solid #273469; */
+}
+.soatContainer {
+  text-align: left;
+  margin-left: 3.5rem;
+}
+.soatMain {
+  letter-spacing: 2px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #273469;
+  padding-top: 2rem;
+  border-top: 4px solid #273469;
+}
+.soatImportance {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #333;
+}
+.soatDescription {
+  width: 80%;
+  margin-top: 2rem;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  /* text-align: justify; */
+}
+.buttonSoat {
+  margin-top: 1rem;
+  margin-left: -0.1rem;
+}
+.soatBoundaries {
+  margin-top: 2rem;
+}
+.firstBoundarie,
+.secondBoundarie,
+.thirdBoundarie,
+.fourthBoundarie {
+  font-size: 1.8rem;
+  padding-left: 10rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 15rem;
+  text-align: left;
+  width: 60%;
+}
+.boundariesDescription {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-left: 13rem;
+  text-align: left;
+  line-height: 1.5;
+  max-width: 60%;
+}
+.social-icon {
+  vertical-align: middle;
+}
+.boundarie-Text {
+  margin-left: 0.5rem;
+  color: #273469;
+}
+.boundarie-Text-3 {
+  margin-left: 1rem;
+  color: #273469;
+}
+.servicesContainer {
+  /* margin-top: 2rem; */
+  margin-bottom: 6.3rem;
+}
+/*******************************************/

@@ -1,0 +1,32 @@
+.circles {
+  grid-template-columns: repeat(3, 1fr);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Oculta las flechas de incremento/decremento incluso cuando se está en estado de hover */
+input[type="number"]:hover::-webkit-inner-spin-button,
+input[type="number"]:hover::-webkit-outer-spin-button {
+  display: none;
+}
+.cta-form {
+  grid-template-columns: 1fr;
+  width: 50%;
+}
+.container,
+.descripcion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.caracteristicasDesc,
+.detalleCaracteristicas {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.secondContainer {
+  height: 50rem;
+}

@@ -1,0 +1,124 @@
+.circles {
+  grid-template-columns: repeat(3, 1fr);
+}
+/* Estilos para el contenedor principal */
+.wrapper {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenedor del calendario */
+.calendar-container {
+  width: 100%; /* Ancho completo en dispositivos móviles */
+  text-align: center;
+  height: 45rem; /* Altura del calendario */
+  overflow-y: auto; /* Agregar desplazamiento vertical si el contenido excede la altura */
+}
+
+/* Estilos para el encabezado del calendario */
+.month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem; /* Reducir tamaño de fuente */
+}
+
+/* Estilos para los días de la semana */
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px; /* Reducir margen superior */
+  margin-bottom: 5px; /* Reducir margen inferior */
+}
+
+/* Estilos para los días del mes */
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.days div {
+  width: calc(100% / 7);
+  padding: 2rem 0; /* Reducir relleno */
+  border: 1px solid #ccc;
+  font-size: 1.5rem; /* Reducir tamaño de fuente */
+}
+
+@media only screen and (max-width: 59em) {
+  .lilContainer:not(:nth-child(2)) {
+    display: none;
+  }
+
+  .days div {
+    width: calc(100% / 5);
+    /* Mostrar 5 días por fila en dispositivos pequeños */
+    font-size: 0.8rem; /* Reducir tamaño de fuente adicionalmente */
+  }
+  .circles {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .options2 {
+    height: 145rem;
+  }
+  .secondContainer {
+    height: 130rem;
+  }
+  .HorarioGeneral {
+    text-align: left;
+  }
+  .thirdContainer {
+    margin-left: 0rem;
+  }
+  .fechayHora {
+    margin-top: 2rem;
+  }
+  .container {
+    padding-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 34em) {
+  .lilContainer:not(:nth-child(2)) {
+    display: none;
+  }
+
+  .days div {
+    width: calc(100% / 5);
+    /* Mostrar 5 días por fila en dispositivos pequeños */
+    font-size: 0.8rem; /* Reducir tamaño de fuente adicionalmente */
+  }
+  .circles {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .options2 {
+    height: 145rem;
+  }
+  .secondContainer {
+    height: 130rem;
+  }
+  .HorarioGeneral {
+    text-align: left;
+  }
+  .thirdContainer {
+    margin-left: 0rem;
+  }
+  .fechayHora {
+    margin-top: 2rem;
+  }
+  .container {
+    padding-bottom: 4rem;
+  }
+}

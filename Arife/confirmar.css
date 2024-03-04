@@ -1,0 +1,192 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.options2 {
+  height: 65rem;
+}
+.secondContainer {
+  height: 55rem;
+}
+.titleIdVehicle {
+  margin-left: 3.2rem;
+}
+.descripcion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.caracteristicasDesc,
+.detalleCaracteristicas {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.detalleCaracteristicas {
+  font-weight: 300;
+}
+.innerText {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2rem;
+}
+/*  */
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 95%;
+  padding: 0.6rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  /* background-color: #fdf2e9; */
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.cta-form input {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+  font-size: 1.5rem;
+}
+
+.cta *:focus {
+  outline: none;
+
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+input[readonly],
+textarea[readonly] {
+  outline: none; /* Deshabilita el resaltado del borde en los campos readonly */
+}
+input[required]:focus,
+textarea[required]:focus,
+select[required]:focus {
+  border-color: rgba(13, 36, 92);
+}
+.datosPersonales {
+  margin-top: -3.5rem;
+}
+.cta-form2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]:hover::-webkit-inner-spin-button,
+input[type="number"]:hover::-webkit-outer-spin-button {
+  display: none;
+}
+
+.confirmacion-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.confirmacion-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.confirmacion-content h2 {
+  margin-bottom: 10px;
+}
+
+.confirmacion-content p {
+  margin-bottom: 0;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #1864ab;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #58a3b2;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: white;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: white;
+  box-shadow: inset 0 0 0 3px white;
+}
+
+.btn--form {
+  background-color: #11151c;
+  color: white;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: white;
+  color: #555;
+}
+
+.btn {
+  grid-column: span 2;
+}

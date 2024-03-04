@@ -1,0 +1,140 @@
+.servicesContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.soatContainer {
+  text-align: left;
+  margin-left: 3.5rem;
+  width: 50%;
+}
+
+.soatBoundaries {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.firstBoundarie,
+.secondBoundarie,
+.thirdBoundarie,
+.fourthBoundarie {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: 3px solid #273469;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(39, 52, 105, 0.5);
+  padding-left: 6.5rem;
+}
+.firstBoundarie ion-icon,
+.secondBoundarie ion-icon,
+.thirdBoundarie ion-icon,
+.fourthBoundarie ion-icon {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.firstBoundarie .boundarie-Text,
+.firstBoundarie .boundarie-Text-3,
+.secondBoundarie .boundarie-Text,
+.secondBoundarie .boundarie-Text-3,
+.thirdBoundarie .boundarie-Text,
+.thirdBoundarie .boundarie-Text-3,
+.fourthBoundarie .boundarie-Text,
+.fourthBoundarie .boundarie-Text-3 {
+  margin-left: 0.5rem;
+  color: #273469;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.firstBoundarie::before,
+.secondBoundarie::before,
+.thirdBoundarie::before,
+.fourthBoundarie::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.firstBoundarie:hover .boundarie-Text, .firstBoundarie:hover .boundarie-Text-3, .firstBoundarie:hover ion-icon,
+.secondBoundarie:hover .boundarie-Text,
+.secondBoundarie:hover .boundarie-Text-3,
+.secondBoundarie:hover ion-icon,
+.thirdBoundarie:hover .boundarie-Text,
+.thirdBoundarie:hover .boundarie-Text-3,
+.thirdBoundarie:hover ion-icon,
+.fourthBoundarie:hover .boundarie-Text,
+.fourthBoundarie:hover .boundarie-Text-3,
+.fourthBoundarie:hover ion-icon {
+  opacity: 0;
+}
+.firstBoundarie:hover + .boundariesDescription,
+.secondBoundarie:hover + .boundariesDescription,
+.thirdBoundarie:hover + .boundariesDescription,
+.fourthBoundarie:hover + .boundariesDescription {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.boundariesDescription {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-left: 19rem;
+  text-align: left;
+  line-height: 1.5;
+  max-width: 50%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  color: black;
+  font-weight: bold;
+}
+
+.firstBoundarie:hover + .boundariesDescription,
+.secondBoundarie:hover + .boundariesDescription,
+.thirdBoundarie:hover + .boundariesDescription,
+.fourthBoundarie:hover + .boundariesDescription {
+  opacity: 1;
+  transform: translateY(-130%);
+}
+
+.firstBoundarie:hover,
+.secondBoundarie:hover,
+.thirdBoundarie:hover,
+.fourthBoundarie:hover {
+  background-color: white;
+}
+
+.firstBoundarie:hover .boundarie-Text,
+.secondBoundarie:hover .boundarie-Text,
+.thirdBoundarie:hover .boundarie-Text,
+.fourthBoundarie:hover .boundarie-Text,
+.firstBoundarie:hover ion-icon,
+.secondBoundarie:hover ion-icon,
+.thirdBoundarie:hover ion-icon,
+.fourthBoundarie:hover ion-icon {
+  opacity: 0;
+}
+
+.firstBoundarie:hover + .boundariesDescription,
+.secondBoundarie:hover + .boundariesDescription,
+.thirdBoundarie:hover + .boundariesDescription,
+.fourthBoundarie:hover + .boundariesDescription {
+  opacity: 1;
+  transform: translateY(-130%);
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=cards.css.map */

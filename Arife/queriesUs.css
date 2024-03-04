@@ -1,0 +1,64 @@
+@media (max-width: 75em) {
+  .textoDescriptivo {
+    font-size: 2rem;
+    text-align: justify;
+  }
+}
+@media (max-width: 59em) {
+  .textoDescriptivo {
+    font-size: 65%;
+    text-align: justify;
+  }
+  .heading-secondary {
+    text-align: justify;
+  }
+
+  .generaltitle {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .whoWeAre {
+    margin-top: 0rem;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-meals {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-one {
+    width: 100%;
+  }
+  .extraContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-col {
+    margin-left: -3rem;
+  }
+  .meal {
+    height: 90%;
+  }
+  .extra {
+    row-gap: 0rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .whoWeAre {
+    margin-top: 0rem;
+  }
+  .whoWeAre img {
+    object-fit: cover;
+    object-position: 45% 20%;
+  }
+
+  .nav-col {
+    margin-left: -3rem;
+  }
+}

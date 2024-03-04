@@ -1,0 +1,57 @@
+html {
+  overflow-x: hidden;
+}
+@media (max-width: 75em) {
+}
+
+@media (max-width: 59em) {
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .cta-form {
+    display: block;
+  }
+  .generalForm {
+    margin-bottom: 2rem;
+  }
+  h1 {
+    margin-left: 0rem;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .cta-form {
+    display: block;
+  }
+  .generalForm {
+    margin-bottom: 2rem;
+  }
+  h1 {
+    margin-left: 0rem;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}

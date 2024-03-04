@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fin Tipografia-->
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contactoStyle.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" href="queriesContacto.css" />
+    <!--Iconos-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Arife logo"
+          src="Imgs/Logo_Horizontal-300x104.png"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="menu_item menu_item--show">
+            <a class="menu_link modelosStyle" href="#">Modelos </a>
+            <ul class="menu_nesting menu-inside-first">
+              <li class="menu_inside">
+                <a
+                  href="#"
+                  class="menu_link menu_link--inside menu_link--inside--second"
+                  >Mototaxis</a
+                >
+              </li>
+              <li class="menu_inside">
+                <a
+                  href="#"
+                  class="menu_link menu_link--inside menu_link--inside--second"
+                  >Motos lineales</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="main-nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li><a class="main-nav-link" href="contacto.html">Contacto</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="reserva.html"
+              >Reserva cita en el taller</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <h1>Contáctanos</h1>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Obtén nuestras promociones y catálogo!
+              </h2>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div class="generalForm">
+                  <label for="Nombre completo">Nombre y Apellidos</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Ej. Jorge Yataco"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div class="generalForm">
+                  <label for="email">Correo electrónico</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Ej. nombre@dominio.com"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="generalForm">
+                  <label for="email">Ciudad</label>
+                  <input
+                    id="email"
+                    type="text"
+                    placeholder="Ej. Chincha"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="generalForm">
+                  <label for="email">Region</label>
+                  <input
+                    id="email"
+                    type="text"
+                    placeholder="Ej. Ica"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="generalForm">
+                  <label for="email">Número</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Ej. 999000999"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="generalForm">
+                  <label for="select-where"
+                    >¿En qué vehículo estas interesado?</label
+                  >
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Elige una opción:</option>
+                    <option value="Moto lineal">Moto lineal</option>
+                    <option value="Moto taxi">Moto taxi</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Confirmar</button>
+              </form>
+            </div>
+
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="pen and paper"
+            ></div>
+          </div>
+        </div>
+        <p class="callUs">Tambíen nos puedes llamar al 056-461070</p>
+      </section>
+      <section class="ubicacion">
+        <h1>Ubícanos</h1>
+        <h2><span class="subtituloUbi">Chincha</span></h2>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.9467159190335!2d-76.13330492666927!3d-13.41562536889267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110168813fe931d%3A0xa4f59e81c69bfb62!2sARIFE%20E.I.R.L!5e0!3m2!1ses!2spe!4v1707134740463!5m2!1ses!2spe"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <h2 class="sub2"><span class="subtituloUbi">Pisco</span></h2>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15504.066545511218!2d-76.21725695455694!3d-13.717442169096918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91106582315f5a25%3A0xdffe3c35a0b1689b!2sARIFE%20Pisco!5e0!3m2!1ses!2spe!4v1707135400009!5m2!1ses!2spe"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <footer class="footer" id="footer">
+    <div class="container grid grid--footer">
+      <div class="logo-col">
+        <a href="#" class="footer-logo">
+          <img
+            class="logo-footer"
+            alt="Omnifood logo"
+            src="Imgs/Logo_Horizontal-300x104.png"
+          />
+        </a>
+
+        <ul class="social-links">
+          <li>
+            <a
+              class="footer-link"
+              href="https://www.instagram.com/grupoarife/?hl=es"
+              target="_blank"
+            >
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer-link"
+              href="https://www.facebook.com/GrupoArife"
+              target="_blank"
+            >
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer-link"
+              href="https://www.tiktok.com/@grupo_arife"
+              target="_blank"
+            >
+              <ion-icon class="social-icon" name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          Copyright &copy; <span class="year">2024</span> por Arife.
+          <br />E.I.R.L. Todos los derechos reservados.
+        </p>
+      </div>
+
+      <div class="address-col">
+        <p class="footer-heading">Ubícanos</p>
+        <address class="contacts">
+          <p>
+            <a
+              class="footer-link"
+              href="https://www.google.com/maps?ll=-13.415631,-76.13073&z=14&t=m&hl=es-ES&gl=US&mapclient=embed&cid=11886581071734373218"
+              target="_blank"
+              >Avenida Abelardo Alva Maurtua 256, Chincha Alta 11701</a
+            >
+          </p>
+          <p class="second-footer-link">
+            <a
+              class="footer-link"
+              href="https://www.google.com/maps/place/Las+Americas,+Pisco+11601,+Per%C3%BA/@-13.720061,-76.211207,15z/data=!4m6!3m5!1s0x9110658bfea6aea5:0x1e5fd0de3949115d!8m2!3d-13.7170685!4d-76.2070637!16s%2Fg%2F1td59pdy?hl=es-ES&entry=ttu"
+              target="_blank"
+              >Av. Las Americas 1800, Pisco, Peru</a
+            >
+          </p>
+        </address>
+      </div>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Productos</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Automóviles</a></li>
+          <li><a class="footer-link" href="#">Mototaxis</a></li>
+          <li><a class="footer-link" href="#">Motos Lineales</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Contáctanos</p>
+        <ul class="footer-nav">
+          <li>
+            <ion-icon name="call-outline" class="contact-icon"></ion-icon
+            ><a class="footer-link" href="#">056-461070</a>
+          </li>
+          <li>
+            <ion-icon name="cart-outline" class="contact-icon"></ion-icon
+            ><a class="footer-link" href="#">Ventas</a>
+          </li>
+          <li>
+            <ion-icon name="hammer-outline" class="contact-icon"></ion-icon
+            ><a class="footer-link" href="#">Repuestos</a>
+          </li>
+          <li>
+            <ion-icon
+              name="shield-checkmark-outline"
+              class="social-icon"
+            ></ion-icon
+            ><a class="footer-link soatClass" href="#">SOAT</a>
+          </li>
+          <li>
+            <ion-icon name="pricetag-outline" class="contact-icon"></ion-icon
+            ><a class="footer-link" href="#">Promociones</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</html>

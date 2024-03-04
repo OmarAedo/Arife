@@ -1,0 +1,123 @@
+$borderColor: #273469;
+
+.servicesContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.soatContainer {
+  text-align: left;
+  margin-left: 3.5rem;
+  width: 50%;
+}
+
+.soatBoundaries {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.firstBoundarie,
+.secondBoundarie,
+.thirdBoundarie,
+.fourthBoundarie {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: 3px solid $borderColor;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(39, 52, 105, 0.5);
+
+  ion-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  padding-left: 6.5rem;
+  .boundarie-Text,
+  .boundarie-Text-3 {
+    margin-left: 0.5rem;
+    color: $borderColor;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover .boundarie-Text,
+  &:hover .boundarie-Text-3,
+  &:hover ion-icon {
+    opacity: 0;
+  }
+
+  &:hover + .boundariesDescription {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.boundariesDescription {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-left: 19rem;
+  text-align: left;
+  line-height: 1.5;
+  max-width: 50%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  // color: #f5f3f5;
+  color: black;
+  font-weight: bold;
+}
+.firstBoundarie:hover + .boundariesDescription,
+.secondBoundarie:hover + .boundariesDescription,
+.thirdBoundarie:hover + .boundariesDescription,
+.fourthBoundarie:hover + .boundariesDescription {
+  opacity: 1;
+  transform: translateY(-130%);
+}
+
+.firstBoundarie:hover,
+.secondBoundarie:hover,
+.thirdBoundarie:hover,
+.fourthBoundarie:hover {
+  // background-color: #6c91bf;
+  background-color: white;
+}
+
+.firstBoundarie:hover .boundarie-Text,
+.secondBoundarie:hover .boundarie-Text,
+.thirdBoundarie:hover .boundarie-Text,
+.fourthBoundarie:hover .boundarie-Text,
+.firstBoundarie:hover ion-icon,
+.secondBoundarie:hover ion-icon,
+.thirdBoundarie:hover ion-icon,
+.fourthBoundarie:hover ion-icon {
+  opacity: 0;
+}
+
+.firstBoundarie:hover + .boundariesDescription,
+.secondBoundarie:hover + .boundariesDescription,
+.thirdBoundarie:hover + .boundariesDescription,
+.fourthBoundarie:hover + .boundariesDescription {
+  opacity: 1;
+  transform: translateY(-130%);
+  pointer-events: none;
+}

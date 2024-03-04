@@ -1,0 +1,183 @@
+.cta-form2 {
+  display: block;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 2rem;
+}
+.options2 {
+  height: 98rem;
+}
+.secondContainer {
+  height: 92rem;
+}
+.fechaTitulo {
+  font-size: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+/*******************/
+/* Estilos para el contenedor principal */
+.wrapper {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 2rem;
+}
+
+/* Estilos para el contenedor del calendario */
+.calendar-container {
+  width: 45rem;
+  height: 40rem;
+  /* text-align: center; */
+  /* overflow-y: auto;  */
+  text-align: center;
+}
+
+/* Estilos para el encabezado del calendario */
+.month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.lildate {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para los días de la semana */
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.weekdays div {
+  width: calc(100% / 7);
+}
+
+/* Estilos para los días del mes */
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.days div {
+  width: calc(100% / 7);
+  padding: 20px 0;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+}
+
+/*****/
+.prev,
+.next {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #f0f0f0;
+}
+
+.prev:hover,
+.next:hover,
+.prev:focus,
+.next:focus {
+  outline: none;
+}
+
+/*****************/
+.horarios {
+  display: block;
+  margin-top: 2rem;
+}
+.horario {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+}
+.selecH {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.fechayHora {
+  margin-top: 9rem;
+  font-size: 2rem;
+}
+.Asesor {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.calendar {
+  padding: 2%;
+}
+.calendar .days li {
+  text-align: center;
+  list-style: none;
+  height: 3rem;
+  line-height: 2rem;
+  color: #333;
+  font-size: 1.07rem;
+  position: relative;
+  cursor: pointer;
+}
+.calendar .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.3rem;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+}
+.thirdContainer {
+  margin-left: 4rem;
+}
+.days div:hover {
+  background-color: #f0f0f0;
+}
+.days div.past-day:hover {
+  cursor: default;
+  background-color: transparent;
+}
+.horarios {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horario {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.horario:hover {
+  background-color: #ddd;
+}
+
+.horario:active {
+  background-color: #bbb;
+}
+.days div {
+  width: calc(100% / 7);
+  padding: 20px 0;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+}

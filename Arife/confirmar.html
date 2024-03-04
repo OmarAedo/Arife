@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmar</title>
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fin Tipografia-->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="agendar.css" />
+    <link rel="stylesheet" href="confirmar.css" />
+    <link rel="stylesheet" href="queriesConfirmar.css" />
+    <script src="confirmar.js" defer></script>
+    <!--Iconos-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Arife logo"
+          src="Imgs/Logo_Horizontal-300x104.png"
+        />
+      </a>
+    </header>
+    <section class="options2" id="testimonials">
+      <div class="secondContainer">
+        <div class="circles">
+          <div class="lilContainer">
+            <div class="circle"><span class="number">1</span></div>
+            <p class="circleText">Identifique su vehículo</p>
+          </div>
+          <div class="lilContainer">
+            <div class="circle"><span class="number">2</span></div>
+            <p class="circleText">Seleccionar ciudad</p>
+          </div>
+          <div class="lilContainer">
+            <div class="circle"><span class="number">3</span></div>
+            <p class="circleText">Seleccionar horario</p>
+          </div>
+          <div class="lilContainer">
+            <div class="circleAct"><span class="number">4</span></div>
+            <p class="circleText">Confirmar</p>
+          </div>
+        </div>
+        <h1 class="titleIdVehicle">Detalles de la reserva</h1>
+        <div class="container">
+          <div class="descripcion">
+            <div class="caracteristicasDesc">
+              <p>Servicio:</p>
+              <p>Vehículo:</p>
+              <p>Placa:</p>
+              <p>Fecha:</p>
+              <p>Hora:</p>
+              <p>Ciudad:</p>
+              <p>Teléfono:</p>
+              <p>Correo:</p>
+            </div>
+            <div class="detalleCaracteristicas">
+              <p>Mantenimiento</p>
+              <p>-------------</p>
+              <p>-------------</p>
+              <p>-------------</p>
+              <p>-------------</p>
+              <p>-------------</p>
+              <p>-------------</p>
+              <p>-------------</p>
+            </div>
+          </div>
+          <div class="datosPersonales">
+            <form class="cta-form cta-form2" name="sign-up">
+              <div>
+                <label for="DNI">DNI</label>
+                <input
+                  id="dni"
+                  type="number"
+                  pattern="[0-9]+"
+                  inputmode="numeric"
+                  required
+                />
+              </div>
+              <div>
+                <label for="Nombre">Nombre</label>
+                <input id="nombreCli" type="text" required />
+              </div>
+              <div>
+                <label for="Apellido">Apellido</label>
+                <input
+                  id="apellidoCli"
+                  type="text"
+                  pattern="[0-9]+"
+                  inputmode="numeric"
+                  required
+                />
+              </div>
+              <div>
+                <label for="Teléfono">Teléfono</label>
+                <input
+                  id="númeroTelef"
+                  type="number"
+                  pattern="[0-9]+"
+                  inputmode="numeric"
+                  required
+                />
+              </div>
+              <div>
+                <label for="Placa-Vehiculo">Email</label>
+                <input id="emailCli" type="email" name="email" required />
+              </div>
+              <div>
+                <label for="Observaciones">Observaciones (opcional)</label>
+                <input id="obsCli" type="text" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="lastButtons">
+          <a class="main-nav-link nav-cta lastButton" href="fecha.html"
+            >Atrás</a
+          >
+          <a class="main-nav-link nav-cta" href="sucursal.html">Siguiente</a>
+        </div>
+      </div>
+    </section>
+    <div id="confirmacion" class="confirmacion-container">
+      <div class="confirmacion-content">
+        <h2>Reserva confirmada con éxito</h2>
+        <p>
+          Gracias por elegir nuestro servicio!. Le llegará un correo de
+          confirmación con todos los datos
+        </p>
+        <a href="index.html" class="btn btn--full">Ir a la página principal</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+.Generalcontainer {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  border-bottom: 3px solid #0d245c;
+  margin-top: 2rem;
+}
+.Generalcontainer h1 {
+  text-align: center;
+}
+
+.thirdContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  margin-top: 3rem;
+}
+.circles {
+  grid-template-columns: 1fr 1fr;
+}
+.main-nav-link,
+.nav-cta {
+  margin-top: 2rem;
+}
+.something {
+  align-items: center;
+  text-align: center;
+}
+.secondContainer {
+  height: 35rem;
+}
+
+.confirmacion-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.confirmacion-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.confirmacion-content h2 {
+  margin-bottom: 10px;
+}
+
+.confirmacion-content p {
+  margin-bottom: 0;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #1864ab;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #58a3b2;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: white;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: white;
+  box-shadow: inset 0 0 0 3px white;
+}
+
+.btn--form {
+  background-color: #11151c;
+  color: white;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: white;
+  color: #555;
+}
+
+.btn {
+  grid-column: span 2;
+}
+.innerText {
+  font-size: 1.5rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}

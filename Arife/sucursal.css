@@ -1,0 +1,15 @@
+#mapa {
+  display: none;
+}
+.cta-form2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.map {
+  margin-left: 10rem;
+}
+.container {
+  padding-bottom: 6rem;
+}

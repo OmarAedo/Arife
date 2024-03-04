@@ -1,0 +1,57 @@
+@media (max-width: 59em) {
+  .generalContainer {
+    width: 41.19rem;
+  }
+  .options {
+    height: 100vh;
+  }
+  .lilContainer:not(:first-child) {
+    display: none;
+  }
+  .circles {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .options2 {
+    height: 100vh;
+  }
+  .lastButtons {
+    margin-top: 1rem;
+    margin-left: 4rem;
+  }
+  .secondContainer {
+    height: 75rem;
+  }
+  .options2 {
+    height: 90rem;
+  }
+}
+@media (max-width: 34em) {
+  .generalContainer {
+    width: 41.19rem;
+  }
+  .options {
+    height: 100vh;
+  }
+  .lilContainer:not(:first-child) {
+    display: none;
+  }
+  .circles {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .lastButtons {
+    margin-top: 1rem;
+    margin-left: 4rem;
+  }
+  .secondContainer {
+    height: 75rem;
+  }
+  .options2 {
+    height: 85rem;
+  }
+}

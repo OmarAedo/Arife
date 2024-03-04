@@ -1,0 +1,113 @@
+.header {
+  justify-content: center;
+  /* border-bottom: 4px solid #0d245c; */
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: linear-gradient(
+      rgba(51, 51, 51, 0.3),
+      rgba(51, 51, 51, 0.3)
+    ),
+    url(Imgs/ReservarCita.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45.5rem;
+  padding: 0rem 15rem;
+}
+
+.generalContainer {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: -15rem;
+  width: 45rem;
+}
+.titleBookMantainance {
+  color: black;
+  font-size: 30px;
+  max-width: 70%;
+  line-height: 1.5;
+  margin-top: 6rem;
+  margin-left: 5rem;
+}
+.generalButtons {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  width: 30rem;
+}
+.generalButtons a {
+  display: block;
+  margin-bottom: 10px;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: white;
+}
+.firstColumn {
+  padding: 2rem;
+  color: #0d245c;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #273469;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2rem;
+  border-radius: 20px;
+  padding-right: 18rem;
+  color: #fff;
+  background-color: #273469;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #10152a;
+  background-color: #58a3b2;
+}
+.main-nav-link.nav-cta.Bookbutton1:link,
+.main-nav-link.nav-cta.Bookbutton1:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 20px;
+  padding-right: 19rem;
+  color: #fff;
+  background-color: #273469;
+}
+
+.main-nav-link.nav-cta.Bookbutton4:link,
+.main-nav-link.nav-cta.Bookbutton4:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 20px;
+  padding-right: 19rem;
+  color: #fff;
+  background-color: #273469;
+}
+.main-nav-link.nav-cta.Bookbutton4:hover,
+.main-nav-link.nav-cta.Bookbutton4:active {
+  background-color: #10152a;
+  background-color: #58a3b2;
+}
+.main-nav-link.nav-cta.Bookbutton1:hover,
+.main-nav-link.nav-cta.Bookbutton1:active {
+  background-color: #10152a;
+  background-color: #58a3b2;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendar Cita</title>
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fin Tipografia-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="agendar.css" />
+    <link rel="stylesheet" href="queriesReserva.css" />
+    <style>
+      .secondContainer {
+        height: 45rem;
+      }
+      .options2 {
+        height: 55rem;
+      }
+    </style>
+    <!--Iconos-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Arife logo"
+          src="Imgs/Logo_Horizontal-300x104.png"
+        />
+      </a>
+    </header>
+    <section class="options2" id="testimonials">
+      <div class="secondContainer">
+        <div class="circles">
+          <div class="lilContainer">
+            <div class="circleAct"><span class="number">1</span></div>
+            <p class="circleText">Identifique su vehículo</p>
+          </div>
+          <div class="lilContainer">
+            <div class="circle"><span class="number">2</span></div>
+            <p class="circleText">Seleccionar ciudad</p>
+          </div>
+          <div class="lilContainer">
+            <div class="circle"><span class="number">3</span></div>
+            <p class="circleText">Seleccionar horario</p>
+          </div>
+          <div class="lilContainer">
+            <div class="circle"><span class="number">4</span></div>
+            <p class="circleText">Confirmar</p>
+          </div>
+        </div>
+        <div class="container">
+          <h1 class="titleIdVehicle">Ingrese la placa de su vehículo</h1>
+          <form class="cta-form" name="sign-up" netlify>
+            <div>
+              <label for="Placa-Vehiculo">Placa</label>
+              <input id="placa" type="text" required />
+            </div>
+            <div>
+              <label for="kilometraje-vehículo">Kilometraje</label>
+              <input id="kilometraje-vehículo" type="text" required />
+            </div>
+            <div>
+              <label for="Marca-Vehículo">Marca</label>
+              <input id="Marca" type="text" value="Torito" readonly />
+            </div>
+            <div>
+              <label for="Tipo-Vehículo">Tipo de vehículo</label>
+              <input id="tipo" type="text" value="Mototaxi" readonly />
+            </div>
+            <div>
+              <label for="Modelo-Vehículo">Modelo</label>
+              <input id="modelo" type="text" value="Torito 4t" readonly />
+            </div>
+          </form>
+        </div>
+        <div class="lastButtons">
+          <a class="main-nav-link nav-cta lastButton" href="reserva.html"
+            >Atrás</a
+          >
+          <a class="main-nav-link nav-cta" href="sucursal.html">Siguiente</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

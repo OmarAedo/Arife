@@ -1,0 +1,38 @@
+@media (max-width: 74em) {
+  .map {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 59em) {
+  .lilContainer:not(:nth-child(2)) {
+    display: none;
+  }
+  .circles {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .map {
+    width: 100%;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .lilContainer:not(:nth-child(2)) {
+    display: none;
+  }
+  .circles {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .map {
+    width: 100%;
+    margin-left: 0rem;
+  }
+}

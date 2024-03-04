@@ -1,0 +1,81 @@
+@media (max-width: 59em) {
+  .servicesBanner img {
+    object-fit: cover;
+    object-position: 50% 20%;
+  }
+  .servicesContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .servicesGeneral {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .soatContainer {
+    width: 100%;
+  }
+  .soatBoundaries {
+    margin-top: 8rem;
+  }
+  .randomClass {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+  }
+  .firstBoundarie,
+  .secondBoundarie,
+  .thirdBoundarie,
+  .fourthBoundarie {
+    margin: auto;
+    padding-inline: 20px;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+  }
+  .soatBoundaries {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 34em) {
+  .servicesBanner img {
+    object-fit: cover;
+    object-position: 50% 20%;
+  }
+  .servicesContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .randomClass {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+  }
+  .firstBoundarie,
+  .secondBoundarie,
+  .thirdBoundarie,
+  .fourthBoundarie {
+    margin: auto;
+    padding-inline: 20px;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+  }
+  .soatBoundaries {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+  }
+}
